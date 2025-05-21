@@ -12,5 +12,5 @@ public interface IEmpleadoServicio {
 
     public void guardarEmpleado(Empleado empleado);
 
-    public void eliminarEmplado(Empleado empleado);
+    public void eliminarEmpleado(Empleado empleado);
 }

@@ -20,7 +20,7 @@ public class Empleado {
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
     Integer idEmpleado;
     String nombreEmpleado;
-    String departaento;
+    String departamento;
     Double sueldo;
 
 }

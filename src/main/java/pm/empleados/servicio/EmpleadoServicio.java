@@ -27,7 +27,7 @@ public class EmpleadoServicio implements IEmpleadoServicio{
     }
 
     @Override
-    public void eliminarEmplado(Empleado empleado) {
+    public void eliminarEmpleado(Empleado empleado) {
         this.empleadoRepositorio.delete(empleado);
     }
 }
